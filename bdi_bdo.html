@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>bdi y bdo</h3>
+        <p>
+            Bdi perimte establecer la dirección del texto <br>
+            Bdo permite anular el algoritmo que decide la dirección <br>
+            Se suelen utilizar para escribir textos de derecha a izquierda
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+           
+                &lt;p dir="ltr"&gt;
+                Esta palabara arábica&lt;bdi&gt;ARABIC_PLACEHOLDER&lt;/bdi&gt; se muestra automáticamente de derecha a izquierda.
+                &lt;/p&gt;
+                &lt;p&gt;
+                &lt;bdo dir="rtl"&gt;
+                This text will go right-to-left.
+                &lt;/bdo&gt;
+                &lt;/p&gt;
+            </code>
+        </pre>
+        <p dir="ltr">
+            Esta palabara arábica <bdi>إيان</bdi> se muestra automáticamente
+            de derecha a izquierda.           
+        </p>
+        <p>
+            <bdo dir="rtl">
+                This text will go right-to-left.
+            </bdo>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" terget="_self">Contacto</a>
+    </footer>
+</body>
+</html>
