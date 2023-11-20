@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>input</h3>
+        <p>
+            Permite proporcionar un componente interactivo para que el usuario
+             introduzca información para su envío a un servidor web. <br>
+             siempre recogen una cadena de caracteres con el objetivo de enviársela al servidor, 
+             independientemente del tipo de entrada que representen. <br>
+             Tipos: <br>
+             <ul>
+                <li>button: botón de acción</li>
+                <li>checkbox: Casilla para la selección de un elemento dentro de un conjunto de opciones.</li>
+                <li>color: permite seleccionar un color</li>
+                <li>date: fecha</li>
+                <li>datetime-local: fecha y hora</li>
+                <li>email: correo electrónico</li>
+                <li>file: seleccionar un archivo del sistema</li>
+                <li>hidden: No es visible pero internamente existe a todos los efectos</li>
+                <li>image: Tiene el mismo comportamiento que el componente &lt;input&gt; de tipo submit, pero en lugar de texto muestra una imagen</li>
+                <li>month: mes y año</li>
+                <li>number: valor numérico</li>
+                <li>password: contraseña</li>
+                <li>radio: Casilla para la selección de un único elemento dentro de un conjunto de opciones</li>
+                <li>range: Selección visual de un valor numérico dentro de un rango</li>
+                <li>reset: Restaura el estado inicial de los campos del formulario</li>
+                <li>search: Texto para realizar una búsqueda. Tiene el mismo comportamiento que el elemento &lt;input&gt; de tipo text, pero permite establecer una diferenciación para realizar un tratamiento distinto</li>
+                <li>submit: Verifica y envía los datos del formulario al destino indicado en el atributo action de este</li>
+                <li>tel: número de teléfono</li>
+                <li>text: texto libr</li>
+                <li>time: hora</li>
+                <li>url: url</li>
+                <li>week: Año y ordinal de la semana de dicho año</li>
+             </ul><br>
+             Atributos significativos: <br>
+             <ul>
+                <li>autocomplete: permite activar el autocompletado del componente</li>
+                <li>autofocus: el componente que tiene este atributo obtiene el foco cuando se carga la página. Solo hay que utilizarlo, por lo tanto, en un elemento por página.</li>
+                <li>disabled: desactiva el componente</li>
+                <li>form: contiene la referencia al id de un formulario, permitiendo que el componente pertenezca al formulario referenciado, aunque no sea un descendiente de este.</li>
+                <li>list: permite asociar el componente con una lista de opciones definida en un elemento &lt;datalist&gt;. Válido para casi todos los tipos.</li>
+                <li>name: nombre del elemento de cara a su envío al servidor. Es importante recorda que si el elemento no tiene este atributo, no será enviado, aunque esté contenido por el formulario</li>
+                <li>placeholder: pese a que no es común en todos los tipos de elemento inputs, este atributo está presente en bastantes de ellos. Recibe como valor un texto y este se muestra en el espacio destinado a la entrada de datos. Desaparece cuando el usua rio introduce el valor. Permite indicar al usuario qué tipo de dato espera el elemento.</li>
+                <li>readonly: hace que el valor (atributo value) sea visible pero no editable. Válido para casi todos los tipos.</li>
+                <li>required: convierte el campo en obligatorio. De no rellenarse se mostrará un mensaje de error y la acción de envío de los datos del formulario al servidor no se realizará. Válido para casi todos los tipos.</li>
+                <li>type: determina la apariencia del componente, el tipo de dato que se va a introducir y la validación. No es obligatorio. Si se omite, el tipo seleccionado por defecto es text.</li>
+                <li>value: valor por defecto del componente.</li>
+             </ul>
+
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;form actions="http://localhost/calculadoraimpuestos.php" method="GET"&gt;
+                &lt;input type="text" placeholder="Concepto" name="concepto"&gt;
+                &lt;input type="number" placeholder=" Importe" name="importe"&gt;
+                &lt;input type="submit" value="Calcular"&gt;
+                &lt;/form&gt;
+            </code>
+        </pre>
+        <p>
+            <form actions="http://localhost/calculadoraimpuestos.php" method="GET">
+                <input type="text" placeholder="Concepto" name="concepto"> 
+                <input type="number" placeholder=" Importe" name="importe">
+                <input type="submit" value="Calcular">
+            </form>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" terget="_self">Contacto</a>
+    </footer>
+</body>
+</html>
