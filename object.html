@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>object</h3>
+        <p>
+            permite incrustar un recurso externo que puede ser una imagen (una alternativa al componente &lt;img&gt;),
+             un contexto de navegación anidado (una alternativa al componente &lt;iframe&gt;) o un recurso manejado por 
+             un plug-in (una alternativa al componente &lt;embed&gt;). El elemento &lt;param&gt; permite parametrizar el contenido incrustado. <br>
+            Atributos significativos:
+            <ul>
+                <li>data: contiene el recurso que se ha de mostrar.</li>
+                <li>type: permite indicar el tipo de contenido (tipo MIME) que se va a mostrar.</li>
+                <li>name: es un nombre que podrá ser usado por elementos del contexto de navegación incrustado.</li>
+                <li>usemap: es una referencia al atributo name de un elemento <map> para establecer una relación entre ambos.</li>
+                <li>form: es una referencial al atributo id del formulario relacionado con el elemento.</li>
+                <li>width y height: determinan, respectivamente, el ancho y alto del objeto incrustado.</li>
+            </ul>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;p&gt;
+                &lt;object data="img1.jpg" width="300" height="200" &gt;&lt;/object&gt;
+                &lt;object data="html1.html" width="200" height="200" &gt;&lt;/object&gt;
+                &lt;/p&gt;
+            </code>
+        </pre>
+        <p>
+            <object data="img1.jpg" width="300" height="200" ></object>
+            <object data="html1.html" width="200" height="200" ></object>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" terget="_self">Contacto</a>
+    </footer>
+</body>
+</html>

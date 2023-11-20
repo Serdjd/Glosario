@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>iframe</h3>
+        <p>
+            Representa un contexto de navegación anidado. Es una ventana que permite acceder a un recurso que se encuentra ubicado
+             en un contexto distinto a la página que se está mostrando en el navegador. Básicamente, permite incrustar un documento
+              o parte de un documento dentro de una página HTML. <br>
+            Atributos significativos:
+            <ul>
+                <li>src: la URI del recurso incrustado.</li>
+                <li>sredoc: contiene el código HTML que mostrar dentro del elemento &lt;iframe&gt;. Si existe este atributo, se impone a la referencia proporcionada por el atributo src.</li>
+                <li>sandbox: permite proporcionar restricciones al documento incrustado en el elemento</li>  &lt;iframe&gt; con objeto de mejorar la seguridad de la página.
+                <li>allow: directivas referentes a permisos de acceso a determinados elementos del dispositivo físico, tales como el acelerómetro, la cámara o la geolocalización.</li>
+                <li>allowfullscreen: si existe, permite al contenido incrustado ocupar la pantalla com-pleta.</li>
+                <li>width y height: permiten indicar el ancho y el alto en píxeles.</li>
+                <li>loading: con el valor lazy el contenido se carga cuando este se haga visible; con el valor eager (valor por defecto) el contenido se cargará inmediatamente.</li>
+            </ul>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WNWzg8ZfHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture" allowullscreen&gt;&lt;/iframe&gt;
+            </code>
+        </pre>
+        <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WNWzg8ZfHg" frameborder="0" allow="accelerometer; autoplay;
+             clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowullscreen></iframe>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" terget="_self">Contacto</a>
+    </footer>
+</body>
+</html>
