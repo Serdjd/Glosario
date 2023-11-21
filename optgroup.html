@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>optgroup</h3>
+        <p>
+            Permite agrupar un conjunto de elementos
+            &lt;option&gt; de un elemento &lt;select&gt;.<br>
+            Atributos significativos: <br>
+            <ul>
+                <li> disabled: impide seleccionar la opción.</li>
+                <li>label: determina el nombre del grupo de opciones.</li>
+            </ul>
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;form&gt;
+                &lt;select&gt;
+                &lt;optgroup label="Disponibles"&gt;
+                &lt;option value="opcionl"&gt;Baloncesto&lt;/option&gt;
+                &lt;option value="opcion2"&gt;Fútbol&lt;/option&gt;
+                &lt;/optgroup&gt;
+                &lt;optgroup label="Sin stock"&gt;
+                &lt;option value="opcion4""&gt;Ferrari&lt;/option&gt;
+                &lt;option value="opcion5"&gt;Volvo&lt;/option&gt;
+                &lt;/optgroup&gt;
+                &lt;/select&gt;
+                &lt;/form&gt;
+            </code>
+        </pre>
+        <p>
+            <form actions="" method="GET">
+                <select>
+                    <optgroup label="Disponibles">
+                        <option value="opcionl">Seat</option> 
+                        <option value="opcion2">Kia</option>
+                    </optgroup>
+                    <optgroup label="Sin stock">
+                        <option value="opcion4">Ferrari</option> 
+                        <option value="opcion5">Volvo</option>
+                    </optgroup>  
+                </select>
+            </form>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" target="_self">Contacto</a>
+    </footer>
+</body>
+</html>

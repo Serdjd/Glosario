@@ -57,8 +57,16 @@
                 <li>required: convierte el campo en obligatorio. De no rellenarse se mostrará un mensaje de error y la acción de envío de los datos del formulario al servidor no se realizará. Válido para casi todos los tipos.</li>
                 <li>type: determina la apariencia del componente, el tipo de dato que se va a introducir y la validación. No es obligatorio. Si se omite, el tipo seleccionado por defecto es text.</li>
                 <li>value: valor por defecto del componente.</li>
+             </ul> <br>
+             Validaciones: <br>
+             <ul>
+                <li>required: indica que el campo de entrada es obligatorio. Hay que tener presente que, en los campos de entrada de tipo texto, los espacios en blanco ya se consideran como valores válidos.</li>
+                <li>minlength y maxength: determinan las longitudes mínimas y máximas en campos de entrada de tipo texto.</li>
+                <li>min y max: establecen los valores mínimos y máximos en campos de entrada numéricos.</li>
+                <li>type: en función del valor asignado a este parámetro, se fijan los valores correctos de entrada. Por ejemplo, si el valor es email, se validará que el valor introducido es una dirección de correo electrónico.</li>
+                <li>pattern: comprueba que el valor introducido es acorde a una expresión regular.Una expresión regular es un patrón formado por una cadena de caracteres que define una regla. Es un mecanismo extremadamente flexible, pero que tiene un grado de complejidad relativamente alto.</li>
              </ul>
-
+             <img src="pattern.png" alt="300" height="300">
         </p>
         <pre style="white-space: pre-line;">
             <code>

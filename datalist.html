@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>datalist</h3>
+        <p>
+            Define un conjunto de elementos &lt;option&gt; como una lista para su uso
+             en como una listas de formulario. Habitualmente en elementos input
+             de tipo text, aparece como una lista de opciones al pulsar sobre el 
+             componente o genera una ayuda contextual filtrando las opciones según
+             se escriben los caracteres en la caja de texto.
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;input type="text" list="lenguajes" placeholder="Selecciona un lenguaje"&gt;
+                &lt;datalist id="lenguajes"&gt;
+                &lt;option&gt;Java&lt;/option&gt;
+                &lt;option&gt;C#&lt;/option&gt;
+                &lt;option&gt;Cobol&lt;/option&gt;
+                &lt;option&gt;Pascal&lt;/option&gt;
+                &lt;option&gt;Python&lt;/option&gt;
+                &lt;/datalist&gt;
+            </code>
+        </pre>
+        <p>
+            <input type="text" list="lenguajes" placeholder="Selecciona un lenguaje">
+            <datalist id="lenguajes">
+                <option>Java</option>
+                <option>C#</option>
+                <option>Cobol</option>
+                <option>Pascal</option>
+                <option>Python</option>
+            </datalist>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" target="_self">Contacto</a>
+    </footer>
+</body>
+</html>

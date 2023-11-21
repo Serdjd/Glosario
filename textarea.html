@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>textarea</h3>
+        <p>
+            Proporciona un área para la introducción de texto. 
+            La principal diferencia con el elemento &lt;input&gt; 
+            de tipo text es que &lt;textarea&gt; permite introducir 
+            múltiples líneas. En la esquina inferior derecha dispone
+             de un selector para cambiar el tamaño del componente con el 
+             ratón. Esta funcionalidad se puede desactivar mediante estilos CSS.<br>
+             No se debe confundir con el componente &lt;meter&gt;.<br>
+            Atributos significativos: <br>
+            <ul>
+                <li>cols: determina el ancho del componente.</li>
+                <li>maxlength: indica el número máximo de caracteres que admite.</li>
+                <li>
+                    minlength: señala el número mínimo de caracteres que admite.
+                    *placeholder: texto mostrado en el componente como ayuda para el 
+                    usuario. Desaparece cuando se le asigna un valor al elemento.
+                </li>
+                <li>
+                    readonly: indica que el componente solo es de lectura.
+                    *required: hace obligatorio introducir valor en el componente para 
+                    cumplir con las reglas de validación.
+                </li>
+                <li>
+                    rows: número de líneas visibles. Si el texto excede el espacio 
+                    disponible, se muestra una barra de desplazamiento vertical.
+                    * spellcheck: determina si el texto debe ser revisado ortográfica 
+                    y gramaticalmente. Admite los valores true y false.
+                </li>
+                <li>
+                    wrap: indica el método de ajuste del texto para el envio al servidor.
+                     Admite los va. lores soft y hard. Visualmente ambos métodos se presentan
+                      igual, rompiendo las líneas para que se vean por completo. 
+                      Internamente, el método hard envia dichos saltos de línea como 
+                      parte del texto, mientas que el método soft envía el texto tal 
+                      cual ha sido introducido.
+                </li>
+            </ul>
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;textarea name="hard" cols="40" rows="8" wrap="hard"&gt;&lt;/textarea&gt;
+            </code>
+        </pre>
+        <p>
+            <textarea name="hard" cols="40" rows="8" wrap="hard"></textarea>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" target="_self">Contacto</a>
+    </footer>
+</body>
+</html>

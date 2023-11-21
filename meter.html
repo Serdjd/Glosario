@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>meter</h3>
+        <p>
+            Representa un valor dentro de un rango. Resulta útil para representar
+             calificaciones, resultados en encuestas, grado de ocupación de un recurso,
+             etc. Para medir grados de avance es más apropiado utilizar el componente &lt;progress&gt;.<br>
+            En ausencia de los atributos low, high y optimum, todas las barras se 
+            representarán en color verde <br>
+            Atributos significativos: <br>
+            <ul>
+                <li>value: indica el valor actual.</li>
+                <li>min: indica el valor mínimo.</li>
+                <li>max: indica el valor máximo.</li>
+                <li>low: indica el umbral por debajo del cual se considera que el valor es bajo.</li>
+                <li>high: indica el umbral por encima del cual se considera que el valor es alto.</li>
+                <li>optimum: indica el valor considerado óptimo.</li>
+            </ul>
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;p&gt;
+                Avance del proceso: &lt;meter min="0" max="100" value=" 20"&gt;&lt;/meter&gt;&lt;br&gt;
+                Calificación: &lt;meter min="0" max="10" low="5" high="7" optimum="8" value="4.9"&gt;&lt;/meter&gt;
+                &lt;/p&gt;
+            </code>
+        </pre>
+        <p>
+            Avance del proceso: <meter min="0" max="100" value=" 20"></meter> <br>
+            Calificación: <meter min="0" max="10" low="5" high="7" optimum="8" value="4.9"></meter>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" target="_self">Contacto</a>
+    </footer>
+</body>
+</html>

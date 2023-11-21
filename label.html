@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>label</h3>
+        <p>
+            Identifica una etiqueta de un campo de entrada de datos del formulario.
+             También permite poner el foco en el campo de entrada pulsando sobre el
+              texto de la etiqueta. <br>
+            La asociación se puede realizar de dos maneras: 
+            conteniendo el campo de entrada entre las etiquetas de apertura y
+             cierre del elemento &lt;label&gt; o utilizando el atributo for cuyo valor
+             deberá ser el del atributo id del componente del formulario relacionado. <br>
+            Atributos significativos: <br>
+            <ul>
+                <li>for: contiene la referencia del id del componente con el que está asociado</li>
+            </ul>
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;p&gt;
+                &lt;label for="apodo"&gt;Apodo&lt;/label&gt;
+                &lt;input type="text" id="apodo"&gt;
+                &lt;/p&gt;
+            </code>
+        </pre>
+        <p>
+            <label for="apodo">Apodo:</label>
+            <input type="text" id="apodo">
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" target="_self">Contacto</a>
+    </footer>
+</body>
+</html>
