@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>audio</h3>
+        <p>
+            Permite insertar recursos de sonido en la página.
+            Para establecer el recurso que reproducir se puede asignar mediante el atributo sre o con el elemento &lt;source&gt;. <br>
+            Atributos significativos: <br>
+            <ul>
+                <li>src: determina la URI del recurso.</li>
+                <li>preload: indica al navegador cómo se desea que se haga la precarga del recurso.</li>
+                <li>
+                    autoplay: indica al navegador que comience la reproducción automática del recurso tan pronto le sea 
+                    posible. Debido a que la reproducción automática de sonido puede resultar una experiencia negativa para 
+                    el usuario, la funcionalidad de reproducción automática está sujeta a una serie de condiciones adicionales.
+                </li>
+                <li>
+                    loop: indica que se desea realizar la reproducción en bucle.
+                </li>
+                <li>
+                    muted: si existe, silencia el componente
+                </li>
+                <li>
+                    controls: si existe, se proporciona una interfaz para que el usuario pueda controlar la reproducción.
+                </li>
+            </ul>
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;audio src="audiotest_(1).ogg" autoplay&gt;&lt;/audio&gt;
+            </code>
+        </pre>
+        <p>
+            <audio src="audiotest_(1).ogg" controls autoplay></audio>
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" target="_self">Contacto</a>
+    </footer>
+</body>
+</html>

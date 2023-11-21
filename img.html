@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario Html de Sergio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html">Etiqueta Head</a>
+        <a href="elementos_bloque.html">Elementos en bloque</a>
+        <a href="elementos_linea.html">Elementos en línea</a>
+    </nav>
+    <main>
+        <h3>img</h3>
+        <p>
+            Permite insertar una imagen en la página HTML a partir de un recurso externo referenciado mediante el atributo src <br>
+            Atributos significativos: <br>
+            <ul>
+                <li>src: determina la URI del recurso.</li>
+                <li>alt: contiene un texto con información equivalente a la proporcionada por la imagen.
+                    Se utiliza cuando la imagen no puede verse (usuario con discapacidad, formato no soportado por el navegador...).
+                </li>
+                <li>
+                    srcset y sizes: permiten asignar varias imágenes junto con indicaciones para ayudar al navegador a elegir la versión más adecuada.
+                </li>
+                <li>
+                    usemap: contiene la referencia a un mapa definido en un elemento &lt;map&gt;.
+                </li>
+                <li>
+                    ismap: si existe, indica que la imagen es parte de un mapa del lado servidor.
+                </li>
+                <li>
+                    width y height: determinan el número de píxeles de ancho y alto, respectivamente, que ocupará la imagen. Si se indica 
+                    uno de los dos atributos, el otro se calculará de forma automática para mantener la proporción original de la imagen. 
+                    Si se indican ambos, la imagen se mostrará con el tamaño exacto indicado, pero hay que tener cuidado para no deformar la imagen.
+                </li>
+                <li>loading: permite indicar al navegador qué estrategia de carga de las imágenes utili-zar. Con el valor eager, la carga se realiza
+                     inmediatamente en todos los casos; con valor lazy, la carga se difiere hasta que la sección de página visible en el navegador está próxima a la posición de la imagen.
+                </li>
+            </ul>
+        </p>
+        <pre style="white-space: pre-line;">
+            <code>
+                &lt;img src="images/dinosaur.jpg" /&gt;
+            </code>
+        </pre>
+        <p>
+            <img src="images/dinosaur.jpg" />
+        </p>
+    </main>
+    <footer>
+        Sergio Doblado Muñoz <a href="mailto:sdobmun0711@g.educaand.es" target="_self">Contacto</a>
+    </footer>
+</body>
+</html>
